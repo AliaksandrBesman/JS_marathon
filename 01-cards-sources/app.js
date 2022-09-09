@@ -1,15 +1,29 @@
-const slides = document.querySelectorAll('.slide')
+const activeSlideIndex = 4
 
-for( const slide of slides){
-    slide.addEventListener('click', ()=>{
-        clearActiveClasses()
+function slidesPlagin(activeSlide = 0){
+    const slides = document.querySelectorAll('.slide')
 
-        slide.classList.add('active')
-    })
+    if(activeSlide > slides.length-1){
+        activeSlide = slides.length - 1
+    }else if(activeSlide < 0){
+        activeSlide = 0
+    }
+
+    slides[activeSlide].classList.add('active')
+
+    for( const slide of slides){
+        slide.addEventListener('click', ()=>{
+            clearActiveClasses()
+    
+            slide.classList.add('active')
+        })
+    }
+    
+    function clearActiveClasses(){
+        slides.forEach((slide)=>{
+            slide.classList.remove('active')
+        })
+    }
 }
 
-function clearActiveClasses(){
-    slides.forEach((slide)=>{
-        slide.classList.remove('active')
-    })
-}
+slidesPlagin(activeSlideIndex)
