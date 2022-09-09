@@ -4,7 +4,8 @@ const timeList = document.querySelector('#time-list')
 const timeEl = document.querySelector('#time')
 const board = document.querySelector('#board')
 const colors = ['red', 'orange','yellow','green','blue', 'darkblue', 'indigo',  'purple', 'indianred','white']
-
+const customTimeBtn = document.querySelector('#custom_time_btn')
+const customInputTime = document.querySelector('#input_time')
 
 let time = 0
 let score = 0
@@ -21,6 +22,13 @@ timeList.addEventListener('click', event=>{
 
         startGame()
     }
+})
+
+customTimeBtn.addEventListener('click', ()=>{
+        time = parseInt(customInputTime.value)
+        screens[1].classList.add('up')
+
+        startGame()  
 })
 
 board.addEventListener('click', event=>{
