@@ -3,12 +3,15 @@ JS Marathon
 
 01-cards-sources - a project about opening cards, namely a list of cards with the extension of the selected.
 Resources: https://vladilen.ru/marathon/cards, https://www.youtube.com/watch?v=RubuSFonJTM&ab_channel=%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BB%D0%B5%D0%BD%D0%9C%D0%B8%D0%BD%D0%B8%D0%BD
+Add res: https://www.youtube.com/watch?v=RubuSFonJTM&ab_channel=%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BB%D0%B5%D0%BD%D0%9C%D0%B8%D0%BD%D0%B8%D0%BD
 
 02-drag-sources - a project about using drag&drop.
 Resources: https://vladilen.ru/marathon/drag, https://lk.result.school/pl/fileservice/user/file/download/h/a46b8dfc2b9db6f48da82d867a691007.pdf
+Add res: https://lk.result.school/pl/fileservice/user/file/download/h/a46b8dfc2b9db6f48da82d867a691007.pdf
 
 03-slider-sources - a project about using slider
 Resources: https://vladilen.ru/marathon/slider.
+Add res: https://www.youtube.com/watch?v=oyTLfIPN7Fw&ab_channel=%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BB%D0%B5%D0%BD%D0%9C%D0%B8%D0%BD%D0%B8%D0%BD
 
 04-board-sources - a project about using a board of boxes with changing the color of the boxes when you hover over them with the mouse.
 Resources: https://vladilen.ru/marathon/board.
