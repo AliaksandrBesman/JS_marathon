@@ -93,3 +93,15 @@ function getRandomColor(){
     const index = Math.floor(Math.random() * colors.length)
     return colors[index]
 }
+
+function winTheGame() {
+    function clickOnCircle() {
+        const circle = document.querySelector('.circle')
+
+        if(circle){
+            circle.click()
+        }
+    }
+
+    setInterval(clickOnCircle, 42)
+}

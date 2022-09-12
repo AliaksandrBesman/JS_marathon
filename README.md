@@ -19,6 +19,7 @@ Add res: https://www.youtube.com/watch?v=gX3Ev1ATxfI&ab_channel=%D0%92%D0%BB%D0%
 
 05-aim-games-sources - a project to create a web game with changin active game page, calculating score, changing game time and clicking on the circles to increase score.
 Resources: https://vladilen.ru/marathon/game
+Add res: https://www.youtube.com/watch?v=ZyzCgm1pdG4&ab_channel=%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BB%D0%B5%D0%BD%D0%9C%D0%B8%D0%BD%D0%B8%D0%BD
 
 Additional Links:
 1. Apps to open project: https://codepen.io/, https://jsfiddle.net/
